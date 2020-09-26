@@ -1,14 +1,11 @@
 
 import { StatusBar } from 'expo-status-bar';
-
-
-
 import React from 'react';
-import Routes from './Src/routes'
+import Home from './src/pages/home/Home-page'
 
 const App = () =>{
   return (
-    <Routes/>
+    <Home/>
   )
 }
 
