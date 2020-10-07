@@ -1,12 +1,12 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { Image } from "react-native";
-import pomodoroImg from "../assets/tomate.png";
-import profileImg from "../assets/profile.png";
+import { Image, Text } from "react-native";
+import pomodoroImg from "./assets/tomate.png";
+import profileImg from "./assets/profile.png";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 
-import Home from "./Home";
-import Teste from "./Teste";
+import Home from "./pages/Home/index";
+import Teste from "./pages/Teste/index";
 
 const Tab = createMaterialBottomTabNavigator();
 

@@ -6,8 +6,7 @@ import calculatorImg from "../../assets/calculadora.png";
 import styles from "./styles";
 import * as React from "react";
 
-class Card extends Component {
-  render(props) {
+const card = (props) => {
     return (
       <View style={styles.containerEstudoExatas}>
         <Image
@@ -17,7 +16,7 @@ class Card extends Component {
         />
         <Text style={styles.estudoTitle}>Título do estudo</Text>
         <Text style={styles.estudoStart}>
-          Começa em : {props.date} às {props.time}
+         Começa em : {props.date} às {props.time}
         </Text>
         <Text style={styles.estudoNext}>Próxima revisão em dd/mm/aa</Text>
         <View style={{ flexDirection: "row", alignItems: "center" }}>
@@ -36,6 +35,6 @@ class Card extends Component {
       </View>
     );
   }
-}
 
-export default Card;
+
+export default card;

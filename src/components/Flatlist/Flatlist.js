@@ -11,7 +11,7 @@ class List extends Component {
       <FlatList
         data={[1, 2, 3, 4]}
         style={styles.studyList}
-        renderItem={() => <Card date={} time={} />}
+        renderItem={() => <Card date={'24/01'} time={'15:00'} />}
       />
     );
   }
